@@ -74,3 +74,4 @@ The Openshift clusters were deployed using [AIO](https://www.openshift.com/blog/
 ## Tests
 
 1. [Import a Single Volume](./test_import_single_volume.md)
+2. [Test using Velero Trident Recovery](./test_velero_backup_trident.md)
