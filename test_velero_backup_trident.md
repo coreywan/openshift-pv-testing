@@ -4,6 +4,8 @@ The point of this test is to see if we can recover Trident Configurations using 
 
 curl https://github.com/vmware-tanzu/velero/releases/download/v1.4.0/velero-v1.4.0-linux-amd64.tar.gz --output velero-v1.4.0-linux-amd64.tar.gz
 
+## Testing Architecture
+![trident-velero-testing](images/trident-velero-testing.png)
 
 ## Setup
 
