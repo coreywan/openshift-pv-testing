@@ -1,0 +1,11 @@
+{
+    "version": 1,
+    "storageDriverName": "ontap-nas",
+    "backendName": "cvnas",
+    "managementLIF": "10.253.55.11",
+    "dataLIF": "10.254.56.146",
+    "svm": "vaultnasa",
+    "username": "admin",
+    "password": "CHANGEME",
+    "nfsMountOptions": "-o nfsvers=3"
+}

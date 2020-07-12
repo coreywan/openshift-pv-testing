@@ -1,0 +1,10 @@
+{
+    "version": 1,
+    "storageDriverName": "ontap-san",
+    "managementLIF": "10.253.55.11",
+    "dataLIF": "10.254.57.18",
+    "backendName":"cvsan",
+    "svm": "vaultnasa",
+    "username": "admin",
+    "password": "CHANGEME"
+}

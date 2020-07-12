@@ -1,0 +1,36 @@
+###########################################################################
+### OpenShift Hosts
+###########################################################################
+
+
+[OSEv3:children]
+nfs
+masters
+etcd
+nodes
+
+
+[nfs]
+vaultocp3a.cloud.wwtatc.local 
+
+
+[masters]
+vaultocp3a.cloud.wwtatc.local
+
+
+[etcd]
+vaultocp3a.cloud.wwtatc.local
+[nodes]
+
+## All-In-One with CRI-O
+#vaultocp3a.cloud.wwtatc.local openshift_node_group_name='node-config-all-in-one-crio' openshift_node_problem_detector_install=true
+
+
+## All-In-One with Docker
+vaultocp3a.cloud.wwtatc.local openshift_node_group_name='node-config-all-in-one' openshift_node_problem_detector_install=true
+
+[OSEv3:vars]
+ansible_ssh_user=root
+openshift_deployment_type=openshift-enterprise
+oreg_auth_user=changeme
+oreg_auth_password=changeme
